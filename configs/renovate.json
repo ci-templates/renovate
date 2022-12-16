@@ -1,0 +1,19 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "commitMessagePrefix": "Renovate: ",
+    "branchPrefix": "renovate_",
+    "onboardingBranch": "renovate_",
+    "reviewersFromCodeOwners": true,
+    
+    "groupName": "all dependencies",
+    "separateMajorMinor": false,
+    "groupSlug": "all",
+    "packageRules": [
+      {
+        "matchPackagePatterns": [ "*" ],
+        "groupName": "all dependencies",
+        "groupSlug": "all"
+      }
+    ],
+    "addLabels": [ "renovate-bot" ]
+}
